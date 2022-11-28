@@ -1,0 +1,45 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/GPL-3.0+",
+    "dateCreated": "2022-11-02",
+    "datePublished": "2022-11-02",
+    "name": "EvolHAL",
+    "version": "1",
+    "description": "Script permettant de suivre l'évolution de nos dépôts sur HAL, avec représentation graphique",
+    "applicationCategory": "Sciences de l'information et de la communication",
+    "funder": {
+        "@type": "Organization",
+        "name": "Aix-Marseille Université"
+    },
+    "keywords": [
+        "bibliométrie",
+        "Python"
+    ],
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "runtimePlatform": [
+        "Jupyter Notebook"
+    ],
+    "operatingSystem": [
+        "Windows 11"
+    ],
+    "softwareRequirements": [
+        "Python 3",
+        "Pandas",
+        "MatPlotLib"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Julien",
+            "familyName": "Caugant",
+            "email": "julien.caugant@univ-amu.fr",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Aix-Marseille Université"
+            }
+        }
+    ]
+}
