@@ -3,16 +3,8 @@
 
 # In[15]:
 
-
-import requests as rq, json, csv
-import pandas as pd
-from datetime import datetime
-import matplotlib.pyplot as plt
-import numpy as np
-nb_notice = []
-nb_text = []
-nb_annex = []
-date_hal = []
+import requests as rq, json, matplotlib.pyplot as plt, numpy as np
+nb_notice, nb_text, nb_annex, date_hal = [], [], [], []
 collection = input("Entrez l'acronyme du portail ou de la collection sur lequel faire l'analyse : ")
 start_y = int(input("Rentrez une année de départ pour votre analyse : "))
 end_y = int(input("Rentrez une année de fin pour votre analyse : "))
@@ -43,29 +35,3 @@ print("Le nombre maximum de notices déposés est de :", max(nb_notice), "sur un
 print("Le nombre maximum de dépôts avec texte est de :", max(nb_text), "sur un mois")
 print("Le nombre maximum d'annexes déposées est de :", max(nb_annex), "sur un mois")
 print("En moyenne, votre structure dépose :", sum(nb_text) / len(nb_text), "par mois")
-        
-
-
-# In[10]:
-
-
-max(nb_notice)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
